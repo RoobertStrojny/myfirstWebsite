@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url(assets/background.jpg);
+}
+
+#header {
+    background-color: #333333;
+    margin: 0;
+    padding: 4px 10%;
+    width: 80%;
+    height: 50px;
+    display: block;
+    overflow: hidden;
+}
+
+#header img{
+  
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    height: 35px;
+    text-align: left;
+    
+  }
+  
+#header li {
+    display: inline;
+    float: right;
+    text-align: right;
+    font-family: Roboto, serif;
+    letter-spacing: 2px;
+    padding: 5px;
+  }
+
+#header a{
+  color: #ff0099;
+}
+
+#title {
+  margin: 0;
+  padding: 10px 10%;
+  width: 80%;
+}
+
+#title h1{
+  font-family: Lobster;
+  font-size: 48px;
+  letter-spacing: 3px;
+  color: #333333;
+  text-align: left;
+}
+
+#title h2{
+  font-family: Roboto;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: #ff0099;
+  text-align: left;
+}
+
+#title p{
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-align: left;
+}
+
+#title h3{
+  font-size: 48px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#content {
+  margin: 0;
+  padding: 10px 10%;
+  width: 80%;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: Lobster;
+  text-align: center;
+}
+
+#definitions {
+    margin: 0;
+    padding: 10px 10%;
+    width: 80%;
+}
+
+#definitons h1{
+  font-family: Lobster;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+#definitions p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: left;
+}
